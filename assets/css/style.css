@@ -1,0 +1,654 @@
+/*******************font family import*************************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/******************Main css start*******************/
+body{
+  background:#fff;
+  font-size:16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+}
+/******************button css start*******************/
+.btn{
+  letter-spacing: 1px;
+}
+.btn:focus{
+  box-shadow:none;
+}
+/******************font weight css start*******************/
+.font-normal{
+  font-weight:400;
+}
+.font-medium{
+  font-weight:500;
+}
+.font-semi-bold{
+  font-weight:600;
+}
+.font-bold{
+  font-weight:700;
+}
+.font-extra-bold{
+  font-weight:800;
+}
+/******************z-index css start*******************/
+.z-index-10{
+  z-index:10;
+}
+/******************heading css start*******************/
+.main-heading{
+  font-weight: bold;
+  color:#1D1111;
+  line-height: 40px;
+  font-size:40px;
+  position:relative;
+}
+.main-heading:after{
+  content: "";
+  background: #000000;
+  width: 47px;
+  position: absolute;
+  height: 10px;
+}
+.main-heading.after-none:after{
+  display:none;
+}
+.main-heading.text-black:after{
+  background: #000;
+}
+.main-heading.text-white:after{
+  background: #fff;
+}
+.heading-left{
+  text-align:left;
+}
+.heading-left:after{
+  left: 0;
+  top: 47px;
+}
+.heading-center{
+  text-align:center;
+}
+.heading-center:after{
+  left: 48%;
+  top: 47px;
+}
+.sub-main-heading{
+  font-weight: normal;
+  color:#fff;
+  line-height: 31px;
+  font-size:30px;
+  position:relative;
+}
+.sub-main-heading:after{
+  content: "";
+  background: #fff;
+  width: 47px;
+  position: absolute;
+  height: 10px;
+}
+.sub-main-heading.heading-left:after {
+  left: 0;
+  top: 40px;
+}
+/******************top nav menu css*******************/
+.top-nav-menu{
+  padding-right:20px;
+}
+.top-nav-menu li a{
+  font-weight: 600;
+  padding-left: 15px!important;
+  padding-right: 15px!important;
+  color: #1D1111!important;
+}
+.top-nav-menu li:last-child a{
+  padding-left: 0px!important;
+}
+.top-nav-menu .dropdown-menu li a{
+  font-weight: 500;
+  font-size:14px;
+  padding-left: 15px!important;
+  padding-right: 15px!important;
+  color: #1D1111!important;    
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+/******************top nav sub menu css*******************/
+.submenu ul{
+  padding:0;
+  margin:0;
+}
+.submenu ul li{
+  display:inline-block;
+  list-style: none;
+  padding:0px 20px 0.5px 20px;
+}
+.submenu ul li a{
+  border-bottom: 8px solid transparent;
+  padding: 12px 5px 6px 5px;
+  display:block;
+  text-decoration: none;
+  color:#6F6F6F;
+  font-size:16px;
+  font-weight:500;
+}
+.submenu ul li a.active, .submenu ul li a:hover{
+  color:#1D1111;
+  border-bottom: 8px solid #4D89F5;
+}
+
+/******************banner css*******************/
+.banner{
+  background-image: url(../img/banner/museumnext-audiencimg.png);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: repeat;
+}
+.banner .image_sec {
+  min-height:640px;
+}
+.banner .image_sec .image_sec-content{
+  z-index:1;
+}
+.banner .gradian-image{
+  background-image: linear-gradient(90deg, #2C70DD, #06176F);
+  mix-blend-mode: hard-light;
+}
+.banner .banner-right-top{
+  right: -140px;
+  top: -238px;
+}
+.banner .banner-left-bottom{
+  left: -32%;
+  bottom: -453px;
+}
+.banner .img-banner-logo{
+  margin-top:120px;
+  margin-bottom:20px;
+}
+.banner .banner-button{
+  border:2px solid #fff;
+}
+.banner .banner-button:hover{
+  border:2px solid #4D89F5;
+  background-color:#4D89F5 ;
+}
+.banner .banner-text{
+  line-height:29px;
+  font-size:20px;
+}
+
+/******************banner below sub menu css*******************/
+.bannersubmenu ul{
+  padding:0;
+  margin:0;
+}
+.bannersubmenu ul li{
+  display:inline-block;
+  list-style: none;
+  padding:0px 20px 0.5px 20px;
+}
+.bannersubmenu ul li a{
+  border-bottom: 4px solid transparent;
+  padding: 12px 0px 0px 0px;
+  display:block;
+  text-decoration: none;
+  color:#4C8AF5;
+  font-size:18px;
+  font-weight:400;
+}
+.bannersubmenu ul li a.active, .bannersubmenu ul li a:hover{
+  color:#000000;
+  border-bottom: 4px solid #000000;
+}
+
+/******************about registor content css***********************/
+.navbar-brand img{
+	width:80px;
+	margin:8px 0px;
+}
+/*************about left css ************/
+.about-registor-content .about-left-circle{
+  z-index: -1;
+  left: 75px;
+  top: 210px;
+}
+.about-registor-content .about-left-circle .img2{
+  left: 0;
+  top: 70px;
+  position: absolute;
+}
+.about-registor-content .about-p{
+  color:#6F6F6F;
+  line-height:21px;
+}
+.about-registor-content .about-left-div{
+  padding-top: 285px;
+  padding-left: 40px;
+  padding-right: 70px;
+}
+.about-registor-content .about-left-div .about-invite-text{
+  line-height:29px;
+  font-size:20px;
+  color:#1D1111;
+}
+/*************about right css ************/
+.about-registor-content .about-right-circle{
+  z-index: -1;
+  right: 0;
+  top: 86px;
+}
+.about-registor-content .about-right-circle .img1{
+  right: -238px;
+  position: absolute;
+  top: 76px;
+}
+.about-registor-content .about-right-circle .img2{
+  right: -290px;
+  top: -42px;
+  position: relative;
+}
+.about-registor-content .about-right-circle .img3{
+  right: -100px;
+  position: absolute;
+  top: 90px;
+}
+.about-registor-content .about-right-div{
+  margin-top: 15px;
+  margin-left: 75px;
+  padding: 38px;
+  margin-right: 55px;
+}
+.about-registor-content .about-right-div .about-invite-text{
+  line-height:29px;
+  font-size:20px;
+  color:#1D1111;
+}
+.about-registor-content .about-right-div.register-form .form-control{
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #848484;
+  padding-left: 30px;
+  font-size: 14px;
+  height: 45px;
+}
+.about-registor-content .about-right-div.register-form .form-control:focus{
+  box-shadow:none;
+}
+.about-registor-content .about-right-div.register-form .form-icon{
+  position: absolute;
+  top: 10px;
+}
+.about-registor-content .about-right-div.register-form .form-icon.img2{
+  position: absolute;
+  top: 14px;
+}
+.about-registor-content .about-right-div.register-form .registor-button{
+  border:2px solid #4D89F5;
+  background-color:#4D89F5 ;
+}
+.about-registor-content .about-right-div.register-form .registor-button:hover{
+  border:2px solid #000;
+  background-color:#000 ;
+}
+.about-registor-content .about-right-div.register-form .btn-help-text{
+  line-height:17px;
+  font-size:12px;
+}
+
+/******************why attend content css***********************/
+
+/*************why attend left css ************/
+.why-attend-content{
+  padding-bottom:120px;
+}
+.why-attend-content .why-attend-left-circle{
+  z-index: -1;
+  left: 0;
+  top: -100px;
+}
+.why-attend-content .why-attend-center-circle{
+  z-index: -1;
+  left: 43.5%;
+  top: 18px;
+}
+.why-attend-content .why-attend-center-circle .img2{
+  position: absolute;
+  left: 35px;
+  top: 40px;
+}
+.why-attend-content .why-attend-center-circle .img3{
+ position: absolute;
+ right: 16px;
+ top: 9px;
+}
+.why-attend-content .why-attend-center-circle .img4{
+  position: absolute;
+  right: 4px;
+  top: 38px;
+}
+.why-attend-content .why-attend-center-circle .img5{
+  position: absolute;
+  left: 60px;
+  top: 25px;
+}
+
+/*************why attend heading css ************/
+.why-attend-content .why-attend-heading{
+  padding-top:120px;
+  margin-top:10px;
+}
+/*************why attend left css ************/
+.why-attend-content .why-attend-left{
+  padding-top: 85px;
+  padding-left: 40px;
+  padding-right: 75px;
+}
+.why-attend-content .why-attend-left .left-p{
+  color:#1D1111;
+  font-size:24px;
+  line-height:32px;
+  font-weight:500;
+}
+/*************why attend right css ************/
+.why-attend-content .why-attend-right{
+  padding-top: 185px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+.why-attend-content .why-attend-right ul{
+  margin:0;
+  padding:0;
+}
+.why-attend-content .why-attend-right ul li{
+  margin:0;
+  padding:0;
+  list-style: none;
+  padding-left:100px;
+  position:relative;
+  padding-bottom:10px;
+}
+.why-attend-content .why-attend-right ul li h4{
+  font-size: 20px;
+  font-weight:600;
+  color:#000;
+}
+.why-attend-content .why-attend-right ul li p{
+  color:#1D1111;
+  line-height:20px;
+}
+.why-attend-content .why-attend-right ul li .image-span{
+  left: 0;
+  top: 13px;
+}
+
+/******************our speaker content css***********************/
+.our-speaker-content .our-speaker-left-circle{
+  z-index: -1;
+  left: 108px;
+  top: -50px;
+}
+.our-speaker-content .our-speaker-center-circle{
+  z-index: -1;
+  left: -23.5%;
+  top: -88px;
+}
+.our-speaker-content .our-speaker-right-circle{
+  z-index: -1;
+  right: -17%;
+  top: -347px;
+}
+
+.our-speaker-content .our-speaker-left{
+  padding:0px 70px 0px 40px;
+}
+.our-speaker-content .our-speaker-left .img-span{
+  display: block;
+  padding-right: 22%;
+}
+.our-speaker-content .our-speaker-left .img-span .img1{
+  position:absolute;
+  bottom:0;
+}
+.our-speaker-content .our-speaker-left .img-span .img2{
+  position:absolute;
+  bottom:0;
+  z-index:1;
+}
+.our-speaker-content .our-speaker-left .img-span .img3{
+  position:relative;
+}
+.our-speaker-content .our-speaker-left h4{
+  color: #4D4D4D;
+  font-size: 20px;
+  padding-top:10px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 39px;
+}
+.our-speaker-content .our-speaker-left p{
+  color: #848484;
+  font-size: 14px;
+  margin: 0;
+  line-height: 17px;
+}
+.our-speaker-content .our-speaker-left .linkedin{
+  width: 33px;
+  height: 33px;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 50%;
+  font-weight: bold;
+  line-height: 33px;
+  text-align: center;
+  background: #b7b7b7;
+  color: #fff;
+  margin-top:5px;
+  cursor: pointer;
+  text-decoration:none;
+}
+.our-speaker-content .our-speaker-left .linkedin:hover{
+  background:#000;
+}
+
+/******************Agenta content css***********************/
+.agenta-content .gradian-image{
+  background-image: linear-gradient(90deg, #0C225F, #0C225F);
+  mix-blend-mode: multiply;
+}
+.agenta-content .agenta-img-left{
+  z-index: 1;
+  left: -98px;
+  top: -88px;
+}
+.agenta-content .agenta-img-center{
+  z-index: 1;
+  left: 13%;
+  bottom: -90px;
+}
+.agenta-content .agenta-img-right{
+  z-index: 1;
+  right: -9%;
+  bottom: 370px;
+}
+.agenta-content .main-row{
+  padding:80px 45px;
+}
+.agenta-content .main-row{
+  padding:80px 45px;
+}
+.agenta-content .main-row .clockimg{
+  width: 25px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.agenta-content .main-row .yellow-button{
+  border:2px solid #ffa700;
+  background-color:#ffa700 ;
+}
+.agenta-content .main-row .yellow-button:hover{
+  border:2px solid #fff;
+  background-color:#fff;
+  color:#000!important;
+}
+.agenta-content .event-column .left h4{
+  font-size:19px;
+  line-height:27px;
+  color:#A8A8A8;
+  margin:0;
+  padding-top:5px;
+}
+.agenta-content .event-column .left span{
+  font-size:14px;
+  line-height:21px;
+  color:#A8A8A8;
+  display:block;
+}
+.agenta-content .event-column .left span i{
+  font-size:12px;
+  margin-top:4px;
+}
+.agenta-content .event-column .center h4{
+  font-size:25px;
+  line-height:28px;
+  color:#fff;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+.agenta-content .event-column .center span{
+  font-size:14px;
+  line-height:21px;
+  color:#fff;
+  display:block;
+}
+.agenta-content .event-column .right h4{
+  font-size:18px;
+  line-height:21px;
+  color:#fff;
+  margin-top:5px;
+  margin-bottom:3px;
+  font-weight:400;
+}
+.agenta-content .event-column .right .left-space{
+  padding-left:0.8rem;
+}
+.agenta-content .event-column .right span{
+  font-size:14px;
+  line-height:19px;
+  color:#A8A8A8;
+  display:block;
+}
+.agenta-content .event-column .section-div{
+  padding:20px 0;
+}
+.agenta-content .event-column .border-new{
+  border-top:1px solid #A8A8A8;
+}
+.agenta-content .event-column.final-row .border-new{
+  border-bottom:1px solid #A8A8A8;
+}
+.agenta-content .networkline{
+  z-index:1;
+}
+.agenta-content .networkline:before{
+  content: "";
+  position: absolute;
+  width: 30%;
+  background: #fff;
+  height: 2px;
+  left: 0;
+  top: 13px;
+  z-index: -1;
+}
+.agenta-content .networkline:after{
+  content: "";
+  position: absolute;
+  width: 30%;
+  background: #fff;
+  height: 2px;
+  right: 0;
+  top: 13px;
+  z-index: -1;
+}
+.agenta-content .support-div{
+  z-index: 1;
+}
+.agenta-content .support-div .content-div{
+  background: #76bc92;
+  color:#fff;
+  padding:25px 60px;
+}
+
+
+/******************FAQ content css***********************/
+.faq-content{
+  background-image: url(../img/faq/bottom-img.svg);
+  padding-top: 70px;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: repeat;
+  padding-bottom: 100px;
+}
+.faq-content .faq-img-bottom{
+  z-index: -1;
+  right: 0px;
+  top: 0;
+  left: 0;
+  bottom: 0px;
+}
+.faq-content .accordion-button:focus{
+  box-shadow:none;
+}
+
+.faq-content .accordion-button::after{
+  line-height: 0.6;
+  color: #4C8AF5;
+  font-size: 34px;
+  content: '+';
+  background-image: none;
+}
+
+.faq-content .accordion-button:not(.collapsed)::after {
+  transform: none;
+  line-height: 0.3;    
+  font-size: 44px;
+  content: '-';
+  background-image:none;
+}
+.faq-content .accordion.left{
+  padding:0 10px 0 45px;
+}
+.faq-content .accordion.right{
+  padding:0 45px 0 10px;
+}
+.faq-content .accordion-item{
+  background: transparent;
+  border: 1px solid #4c8af5;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 0;
+}
+.faq-content .accordion-item:first-child{
+  border-top: 1px solid #4c8af5;
+}
+.faq-content .accordion-item:last-child{
+  border-bottom: 1px solid #4c8af5;
+}
+.faq-content .accordion-button{
+  background: transparent;
+  font-size:14px;
+  font-weight:500;
+  color:#1D1111;
+  padding:20px 20px 20px 0px;
+}
+.faq-content .accordion-body{
+  font-size: 14px;
+  font-weight: 400;
+  color: #1D1111;
+  padding: 0px 50px 20px 0px;
+}
+.faq-content .accordion-button:not(.collapsed){
+  box-shadow:none;
+}
+/******************Main css end**********************/

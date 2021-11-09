@@ -1,0 +1,392 @@
+/*******************responsive css start*******************/
+@media (max-width: 991px) { 
+  .navbar-nav .dropdown-menu{
+    box-shadow: none!important;
+    border-bottom:2px solid #ddd!important;
+    padding-bottom:0!important;
+  }
+  .top-nav-menu li a{
+    border-bottom:1px solid #eee;
+  }
+  .top-nav-menu li a::after{
+    float:right;
+    margin-top:10px;
+  }
+  .nav-flex-div{
+    flex-direction: row-reverse;
+  }
+  .navbar-toggler:focus{
+    box-shadow:none;
+  }
+  .banner .banner-left-bottom{
+    left: -25%;
+    bottom: -214px;
+  }
+  .banner .banner-left-bottom img{
+    max-width: 60%;
+  }
+  .banner .img-banner-logo {
+    margin-top: 50px;
+  }
+  .banner .image_sec {
+    min-height: 540px;
+  }
+  .banner .image_sec .image_sec-content span.d-block{
+   padding-top: 1.5rem!important;
+ }
+ .about-registor-content .about-left-div {
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+.about-registor-content .about-left-circle {
+  left: 75px;
+  top: 30px;
+}
+.about-registor-content .about-right-circle {
+  top: 175px;
+}
+.why-attend-content .why-attend-center-circle {
+  left: 40.5%;
+  top: -30px;
+}
+.why-attend-content .why-attend-left-circle {
+  top: -133px;
+}
+.why-attend-content .why-attend-left-circle img{
+  max-width: 75%;
+}
+.why-attend-content .why-attend-heading {
+  padding-top: 50px;
+  margin-top: 10px;
+}
+.why-attend-content .why-attend-left {
+  padding-top: 57px;
+}
+.why-attend-content {
+  padding-bottom: 30px;
+}
+.why-attend-content .why-attend-right {
+  padding-top: 40px;
+}
+.our-speaker-content .our-speaker-right-circle {
+  top: -590px;
+}
+.our-speaker-content .our-speaker-center-circle {
+  top: 180px;
+}
+.our-speaker-content .our-speaker-left-circle {
+  left: 30px;
+}
+.our-speaker-content .speaker-heading {
+  margin-bottom: 10px!important;
+}
+.agenta-content .agenta-img-left {
+  left: -99px;
+  top: -194px;
+}
+.agenta-content .networkline:before {
+  width: 15%;
+}
+.agenta-content .networkline:after {
+  width: 15%;
+}
+.faq-content .accordion.left{
+  padding-right: 45px;
+}
+.faq-content .accordion.right{
+  padding-left: 45px;
+}
+
+}
+
+@media (max-width: 767px) { 
+  .banner .img-banner-logo {
+    margin-top: 100px;
+  }
+  .banner .image_sec {
+    min-height: 600px;
+  }
+
+  .banner .banner-left-bottom img {
+    max-width: 35%;
+    transform: rotate(-30deg);
+  }
+  .banner .banner-left-bottom {
+    left: -30%;
+    bottom: -142px;
+  }
+  .bannersubmenu ul {
+    flex-flow: row nowrap;
+    display: flex;
+    white-space: nowrap;
+  }
+  .about-registor-content .about-left-circle {
+    display: none;
+  }
+  .about-registor-content .about-div-row {
+    flex-direction: column-reverse;
+  }
+  .about-registor-content .about-right-circle {
+    top: 0;
+  }
+  .about-registor-content .about-right-circle .img1 {
+    right: 34px;
+    position: relative;
+    max-width: 116%;
+    transform: rotate(
+      -26deg);
+    top: 36px;
+  }
+  .about-registor-content .about-right-circle .img2 {
+    display:none;
+  }
+  .about-registor-content .about-right-circle .img3 {
+    display:none;
+  }
+  .about-registor-content .about-right-div {
+    margin-left: 35px;
+    margin-right: 28px;
+  }
+  .why-attend-content .why-attend-left-circle {
+    top: -388px;
+    right: -35%;
+    left: auto;
+  }
+  .why-attend-content .why-attend-left-circle img {
+    max-width: 70%;
+  }
+  .why-attend-content .why-attend-center-circle {
+    left: 0;
+  }
+  .why-attend-content .why-attend-heading .main-heading {
+    text-align:left;
+    margin-left:40px;
+  }
+  .why-attend-content .why-attend-heading .main-heading:after{
+    left: 5px;
+    top: auto;
+    bottom: -18px;
+  }
+  .why-attend-content .why-attend-left {
+    padding-right: 30px;
+  }
+  .why-attend-content .why-attend-left .left-p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .why-attend-content .why-attend-right ul li {
+    padding-left: 0;
+  }
+  .why-attend-content .why-attend-right ul li .image-span {
+    position: static!important;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .why-attend-content {
+    padding-bottom: 10px!important;
+    margin-bottom: 10px!important;
+  }
+  .our-speaker-content .our-speaker-left-circle {
+    left: -51px;
+    top: -23px;
+  }
+  .our-speaker-content .our-speaker-center-circle {
+    top: 50px;
+    left: -74px;
+  }
+  .our-speaker-content .our-speaker-left {
+    padding: 0px 90px;
+  }
+  .our-speaker-content .our-speaker-center {
+    padding: 0px 90px;
+  }
+  .our-speaker-content .our-speaker-right {
+    padding: 0px 90px;
+  }
+  .our-speaker-content .our-speaker-left .img-span {
+    padding: 0px 22%;
+  }
+  .agenta-content .agenta-img-left {
+    left: -140px;
+    top: -195px;
+  }
+  .agenta-content .main-row {
+    padding: 60px 45px;
+  }
+  .sub-main-heading.heading-left:after {
+    bottom: -28px;
+    top: auto;
+  }
+  .agenta-content .event-column .right{
+    border-bottom: 2px solid #fff;
+  }
+  .agenta-content .networkline {
+    padding: 0px 70px;
+  }
+  .agenta-content .networkline:before {
+    top: 20px;
+  }
+  .agenta-content .networkline:after {
+    top: 20px;
+  }
+  .agenta-content .agenta-img-right{
+    display:none;
+  }
+  .agenta-content .agenta-img-center {
+    left: -200px;
+    bottom: -15px;
+  }
+  .agenta-content .agenta-img-center img{
+    max-width: 130%;
+  }
+  .agenta-content .support-div .content-div {
+    background: transparent;
+    color: #fff;
+    border: 15px solid #EEE;
+    padding: 58px 30px;
+  }
+  .agenta-content .support-div .content-div .mobile-head {
+    display: inline-block!important;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 31px;
+    position: absolute;
+    padding: 0 14px;
+    background: #1e326b;
+    top: -25px;
+    left: 14%;
+    color: #fff;
+    text-align: center;
+  }
+  .faq-content {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 575px) { 
+  .about-registor-content .about-right-div {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+  }
+  .about-registor-content .about-left-div {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0;
+  }
+  .why-attend-content .why-attend-heading .main-heading {
+    margin-left: 0;
+  }
+  .why-attend-content .why-attend-left {
+    padding-right: 0;
+    padding-top: 25px;
+    padding-left: 0;
+  }
+  .why-attend-content .why-attend-right {
+    padding-top: 20px;
+    padding-left: 00;
+    padding-right: 0;
+  }
+  .our-speaker-content .speaker-heading {
+    padding-left: 0.5rem!important;
+    padding-right: 0;
+  }
+  .our-speaker-content .our-speaker-left {
+    padding: 0px 0px;
+  }
+  .our-speaker-content .our-speaker-left .img-span {
+    padding: 0px 15%;
+  }
+  .agenta-content .agenta-img-left {
+    left: -176px;
+  }
+  .agenta-content .main-row {
+    padding: 55px 0px;
+  }
+  .agenta-content .networkline {
+    padding: 0px 35px;
+  }
+  .agenta-content .networkline:before {
+    width: 13%;
+  }
+  .agenta-content .networkline:after {
+    width: 13%;
+  }
+  .agenta-content .support-div .content-div .mobile-head {
+    font-size: 24px;
+    background: #0c225f;
+    left: 4%;
+  }
+  .agenta-content .support-div .content-div {
+    border: 10px solid #fff;
+    margin-top: -30px;
+  }
+  .faq-content {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-position: 64% 0;
+  }
+  .faq-content .accordion.left {
+    padding: 0;
+  }
+  .faq-content .accordion.right {
+    padding: 0;
+  }
+  .faq-content .accordion-body {
+    padding: 0px 0px 20px 0px;
+  }
+  .agenta-content .event-column .left h4 {
+    display: inline-block;
+  }
+  .agenta-content .event-column .left span {
+    padding-left: 5px;
+    display: inline-block;
+  }
+  .sub-main-heading {
+    line-height: 20px;
+    font-size: 17px;
+  }
+  .main-heading {
+    line-height: 30px;
+    font-size: 30px;
+  }
+  .banner .banner-left-bottom {
+    left: -29%;
+    bottom: -121px;
+  }
+  .banner .img-banner-logo {
+    margin-top: 100px;
+    max-width: 80%;
+  }
+  .banner .banner-right-top {
+    right: -172px;
+    top: -250px;
+  }
+  .submenu ul li {
+    padding: 0px 1px 0.5px 1px;
+  }
+  .about-registor-content .about-p {
+    padding-top: 35px!important;
+  }
+  .mobile-video-div{
+    display:block!important;
+  }
+  .mobile-video-div .heading-center:after {
+    left: 40%;
+    top:auto;
+    bottom: -20px;
+  }
+  .vdo-div .play-btn{
+    position:absolute;
+    top:50%;
+    cursor: pointer;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  .why-attend-content .why-attend-left .left-p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+/*******************responsive css end*******************/
